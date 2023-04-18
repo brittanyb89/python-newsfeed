@@ -31,3 +31,7 @@ News application restructured to use python back-end
 
 4. Create the Home View Routes
 At this point, the app is set up to serve more complete pages. Now it's time to turn the attention to front end.
+    1. Jinja2 Templating - In a Node.js project, templating requires a separate library (like Handlebars.js), but Flask has built-in templating. When Flask is installed, the Jinja2 template engine is also installed. Like Handlebars.js, Jinja allows you to design placeholders in your HTML content, to be filled in with data from the server.
+    2. Create a routes folder in the app folder
+    3. Create a new file inside routes folder called __init__.py and home.py
+    ** NOTE: The routes directory is now a package because of the presence of the __init__.py file. The home.py file is a module within the routes package.
