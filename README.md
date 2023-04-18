@@ -23,4 +23,8 @@ News application restructured to use python back-end
         2. Create a new file called __init__.py (two underscores on each side of init)
         3. Start Flask server by running `python -m flask run` (this only works if the entry point of the app uses the default name of app)
     ** NOTE: The __init__.py file of a Python package corresponds to the index.js file of a Node.js module.
-        3. Create a new file called routes.py
+
+    ** Python Code Formatting: curly braces don't signify code blocks, nor do semicolons end expressions. Instead, Python uses indentation. So in the create_app() function, we indent everything the function contains by two spaces.
+    3. Start the Flask Server
+        1. `python -m flask run`
+        ** Run command `$env:FLASK_APP = "app"` in powershell to set the environment variable
