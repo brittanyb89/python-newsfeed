@@ -15,6 +15,11 @@ def create_app(test_config=None):
   def hello(): # returns a string
     return 'Hello, World!' # route's response
 
+# As a comparison, the following code shows how to create the same route by using Express.js:
+# app.get('/hello', (req, res) => {
+#   res.send('Hello, World!');
+# });
+
   return app
 
 #   When Flasks runs the app package, it tries to call a create_app() function.
