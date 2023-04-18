@@ -28,3 +28,6 @@ News application restructured to use python back-end
     3. Start the Flask Server
         1. `python -m flask run`
         ** Run command `$env:FLASK_APP = "app"` in powershell to set the environment variable
+
+4. Create the Home View Routes
+At this point, the app is set up to serve more complete pages. Now it's time to turn the attention to front end.
